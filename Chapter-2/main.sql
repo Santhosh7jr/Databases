@@ -60,4 +60,4 @@ VALUES (
     );
 
 
-SELECT * FROM teachers;
+COPY teachers TO 'F:\Postgres\Chapter-2\table.csv' WITH (FORMAT CSV, HEADER, DELIMITER ',');
